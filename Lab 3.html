@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <title>INST377 Lab 3</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        
+        <div class="head_foot">
+            <h1>Lab 3</h1>
+        </div>
+
+        <div class="nav">
+            <li><a href="https://www.espn.com/" target="_blank">ESPN</a></li>
+            <li><a href="https://sportsbook.draftkings.com/" target="_blank">DraftKings</a></li>
+            <li><a href="https://umterps.com/" target="_blank">UMD Sports</a></li>
+        </div>
+
+        <div class="main">
+            <h2>Please choose one of the following</h2>
+            <form action="results.html" method="get">
+            <div>
+                <label for="name">Name: </label>
+                <input type="text" name="name" id="name" required>
+            </div>
+            <div>
+                <label for="Your Choice">Your Choice: </label>
+                <select id="choice" name="choice">
+                    <option value="Rock">Rock</option>
+                    <option value="Paper">Paper</option>
+                    <option value="Scissors">Scissors</option>
+                </select>
+            </div>
+            <input type="submit" value="submit">
+        </form>
+        </div>
+
+        <div class="sidebar">
+            <h2><u>Rules</u></h2>
+            <h2>You must choose Rock, Paper, or Scissors</h2>
+            <h2>The combos are as follows:</h2>
+            <ul>
+                <li>Rock beats Scissors</li>
+                <li>Scissors beats Paper</li>
+                <li>Paper beats Rock</li>
+            </ul>
+        </div>
+        
+        <footer class="head_foot">
+            <p>Rock Paper Scissors Game Assignment</p>
+        </footer>
+
+    </body>
+</html>
